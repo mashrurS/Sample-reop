@@ -12,3 +12,4 @@ def greet(who_to_greet):
 
 r = requests.get('https://mashrurshuvo.wordpress.com/')
 print(r.status_code)
+print(r.ok)
